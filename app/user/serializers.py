@@ -1,4 +1,8 @@
-"""Serializers for the user API View. They take JSON input (for example, from HTTP request), then check it (for example, if a password is long enough and then convert to Python objects or a model in a DB"""
+"""
+Serializers for the user API View. They take JSON input (for example, from HTTP request),
+then check it (for example, if a password is long enough, and
+then convert to Python objects or a model in a DB
+"""
 
 from django.contrib.auth import get_user_model, authenticate
 from django.utils.translation import gettext as _
